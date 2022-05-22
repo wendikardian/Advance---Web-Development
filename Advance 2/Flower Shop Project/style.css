@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+    margin-top: 10%;
+}
+.header{
+    text-align: center;
+    background-color: rgb(250, 147, 164);
+    padding: 20px;
+    color: white;
+    box-shadow: 1px 3px 20px #fb34c9;
+    font-weight: bold;
+}
+
+.subheader{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10pt;
+    border-radius: 15px;
+    background-color: rgb(175, 93, 175);
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    width: 40%;
+}
+
+.best-seller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-bestseller{
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+}
+
+
+.product-img{
+    height: 200pt;
+    width : 150px;
+    border-radius: 20px;
+    
+}
+
+table, tr, th, td{
+    font-family: 'Poppins', sans-serif;
+    border: 0px solid solid;
+    border-collapse:  collapse;
+    text-align: center;
+}
+.available-table{
+    margin : 40px auto 30px auto;
+    width : 60%;
+    color : black;
+}
+
+th{
+    background-color : rgb(227, 130, 146);
+}
+
+tr{
+    background-color : white;
+    height : 30px;
+}
+
+tr:nth-child(odd){
+    background-color : rgb(246, 213, 219);
+}
+
+.img-table{
+    margin : 15px;
+    width : 100px;
+    height : 100px;
+    border-radius: 15px;
+}
+
+section.product-section{
+    margin-top: 40px;
+    padding: 30px;
+    padding-top: 5px;
+    background-image: url('assets/bg.jpg');
+    background-repeat: no-repeat;
+    max-height: auto;
+}
+
+.main-header{
+    background-color: rgb(245,235,220);
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    
+}
+
+.header-info a {
+    /* padding: 0; */
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    margin: 14px;
+    padding: 0px;
+    postition: absolute;
+    left: 0px;
+   }
+
+.header-info a:hover{
+    background-color: transparent;
+}
+
+.header-info {
+    /* padding:3px; */
+    /* padding-left: 10px; */
+    text-align: left;
+    color: rgb(219, 84, 75);
+    margin: 14px;
+    postition: absolute;
+    left: 0px;
+   }
+
+footer{
+    padding: 20px;
+    background-color: rgb(245,235, 220);
+}
+
+.main-footer{
+    display: flex;
+    justify-content: flex;
+    width: 100%;
+}
+
+.left-footer{
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.right-footer{
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left{
+    color: rgb(219, 84, 75);
+    text-align: left;
+    width: 100%;
+}
+
+.info-right{
+    color: rgb(219, 84, 75);
+    text-align: right;
+    width: 100%;
+}
+
+.info-center{
+    color: rgb(219, 84, 75);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
+
+.font-effect-anaglyph{
+    font-family: 'Dancing Script', cursive;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    padding: 15px;
+    float: left;
+    height: 40px;
+    
+}
+
+a:hover{
+    color: rgb(243, 142, 11);
+}
+
+.container-price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab{
+    background-color: gainsboro;
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+h1.name{
+    font-size: 30px;s
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2.price{
+    font-size: 38px;
+    color: black;
+}
+
+.list{
+    list-style-type: disc;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.list li{
+    margin-top: 20px;
+    color: black;
+}
+
+hr{
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(219, 84, 75);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+div.about{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: blanchedalmond;
+    width: 80%
+}
+
+.about{
+    text-align: left;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+
+div.image-about{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+img.about-us{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    *{
+        font-size: 2vw;
+    }
+
+    section.product-section{
+        background-image: url('assets/bg1.jpg');
+    }
+
+
+}

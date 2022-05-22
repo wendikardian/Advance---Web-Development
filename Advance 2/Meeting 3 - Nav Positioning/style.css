@@ -1,0 +1,62 @@
+.static{
+    position: static;
+    border: 2px solid steelblue;
+}
+
+.relative{
+    position: relative;
+    border: 2px solid steelblue;
+    left: 30px;
+}
+
+
+.absolute{
+    position: absolute;
+    border: 2px solid steelblue;
+    right: 0px;
+    bottom: 0px;
+}
+
+div.relative{
+    position: relative;
+    border: 2px solid steelblue;
+    width: 200px;
+    height: 300px;
+}
+
+
+.fixed{
+    position: fixed;
+    border: 2px solid red;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sticky{
+    position: sticky;
+    border: 2px solid green;
+    top : 10px;
+    right: 0px;
+    width: 90px;
+}
+
+nav{
+    /* width: 200px; */
+    
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: block;
+    float: left;
+    min-width: 90px;
+    background-color: rgb(151, 153, 153);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 4px;
+}
+
+a:hover{
+    background-color: burlywood;
+}

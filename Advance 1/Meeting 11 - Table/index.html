@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn about table</title>
+    <style>
+        table, tr, th, td{
+            border: 1px solid rgb(3, 3, 3);
+            border-collapse:  collapse;
+            text-align: center;
+        }
+        
+        th{
+            background-color: aquamarine;
+        }
+
+        .child{
+            background-color: yellowgreen;
+        }
+
+        tr:hover{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <table width="500px">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th class="child">City</th>
+            <th class="child">Province</th>
+        </tr>
+        <tr>
+            <td>1. </td>
+            <td>Wendi</td>
+            <td>Bandung</td>
+            <td>West Java</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bunaya</td>
+            <td>Bekasi</td>
+            <td>West Java</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Budi</td>
+            <td>Jakarta</td>
+            <td>Jakarta</td>
+        </tr>
+    </table>
+</body>
+</html>

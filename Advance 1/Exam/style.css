@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+.title{
+    font-size: 50pt;
+    text-align: center;
+    color: rgb(223,181,46);;
+}
+
+body{
+    background-image: url('assets/cover1.jpg');
+    font-family: 'League Spartan', sans-serif;
+}
+
+.jumbotron{
+    display: flex;
+    item-align: center;
+    flex-direction: column;
+}
+
+img.cover{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 500px;
+    border: 20px solid rgba(182,181,181,0.281);
+}
+
+p.quotes{
+    
+    font-size: 30pt;
+    color: rgb(243, 197,72);
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+    margin: 90px;
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.637);
+    color: rgb(92, 74, 27);
+    text-align: center;
+}
+
+.container:hover{
+    background-color: rgba(220, 220, 220, 1);
+}
+
+section h3{
+    font-size: 40pt;
+    
+}
+
+.child-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.breakfast-img{
+    width: 300px;
+    height: 170px;
+    
+}
+
+.opening{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    margin-top: 20pt;
+    margin-bottom: 70px;
+}
+
+td{
+    padding: 15px;
+    background-color: rgba(34, 139, 34, 0.342);
+    border: 2px solid rgb(84, 82, 87);
+    border-radius: 10pt;
+}
+
+footer{
+    color: black;
+    background-color: rgb(231, 186, 23);
+    text-align: center;
+    padding:5px;
+}

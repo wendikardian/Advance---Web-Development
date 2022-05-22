@@ -1,0 +1,22 @@
+.main-header{
+    background-color: rgb(245,235,220);
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header-info a {
+    padding: 0;
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+   }
+
+.header-info a:hover{
+    background-color: transparent;
+}
+
+.header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+   }
+
