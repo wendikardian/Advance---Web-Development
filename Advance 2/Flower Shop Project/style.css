@@ -149,7 +149,7 @@ footer{
 
 .main-footer{
     display: flex;
-    justify-content: flex;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -296,10 +296,13 @@ img.about-us{
     *{
         font-size: 2vw;
     }
-
+    
     section.product-section{
         background-image: url('assets/bg1.jpg');
     }
 
-
+    .subheader{
+        margin-top: 100px;
+        background-color: darkblue;
+    }
 }
