@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&effect=anaglyph" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f0e17752b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,9 +17,20 @@
             <h3 class="header-info">
                 <a href="index.html">Florist Shop</a>
                 <nav>
-                    <a href="#home">Home</a>
-                    <a href="#price">Price</a>
-                    <a href="#about">About Us</a>
+                    <div class="dropdown">
+                        <div>
+                            <a href="index.html">Home</a>
+                        </div>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li class="dropdown-item"><a href="#products">Products</a></li>
+                                <li class="dropdown-item"><a href="#pricing-table">Pricing Table</a></li>
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="price.html">Price</a>
+                    <a href="about.html">About Us</a>
                 </nav>
             </h3>
         </div>
@@ -104,7 +116,7 @@
             </table>
         </section>
 
-        <section id="price">
+        <section id="products">
             <div class="container-price">
                 <div class="tab">
                     <div class="tab-header">
@@ -128,6 +140,7 @@
                     <li><del>Sunflower</del></li>
                     <li><del>Baby breath</del></li>    
                 </ul>
+                <button>Buy </button>
                 </div>
                 <div class="tab">
                     <div class="tab-header">
@@ -151,6 +164,7 @@
                     <li><del>Sunflower</del></li>
                     <li><del>Baby breath</del></li>    
                 </ul>
+                <button>Buy </button>
                 </div>
                 <div class="tab">
                     <div class="tab-header">
@@ -197,12 +211,12 @@
             <div class="main-footer">
                 <div class="left-footer">
                     <h3 class="info-left"><b>Address</b></h3>
-                    <p class="info-left">Jalan Kenangan </p>
+                    <p class="info-left"> <i class="fas fa-map-marked-alt"></i> Jalan Kenangan </p>
                 </div>
                 <div class="right-footer">
-                    <h3 class="info-right"><b>Contacts</b></h3>
-                    <p class="info-right">Phone : 087871235434 </p>
-                    <p class="info-right">Instagram : Floristore_id</p>
+                    <h3 class="info-right"> <i class="fas fa-users"></i> <b>Contacts</b></h3>
+                    <p class="info-right"> <i class="fas fa-phone"></i> Phone : 087871235434 </p>
+                    <p class="info-right"> <i class="fab fa-instagram"></i> Instagram : Floristore_id</p>
                 </div>
             </div>
             <div class="main-footer">

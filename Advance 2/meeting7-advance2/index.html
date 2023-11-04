@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown-content{
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: flex;
+        }
+
+        ul{
+            list-style-type:none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        li{
+            text-align: left;
+            padding: 5px;
+            margin: 2px 0px;
+            background-color: wheat;
+            min-width: 160px;
+            box-shadow: 3px 3px gainsboro;
+            border-radius: 5px;
+        }
+
+        li:hover{
+            background-color: white;
+            cursor: pointer;
+        }
+
+        li:hover a{
+            color: gainsboro;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <a href="">Menu</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="">Submenu 1</a></li>
+                        <li><a href="">Submenu 2</a></li>
+                        <li><a href="">Submenu 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0e17752b2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>My Blog</title>
+</head>
+<body>
+    <div class="splash">
+        <h1 class="splash-text" data-aos="fade-right" data-aos-duration="200"> Hello Guys ! <br> Welcome to the club</h1>
+        <img src="img/astronaut1.png" class="astronaut-dabbing" alt="">
+        <img src="img/astronaut2.png" class="astronaut-takeoff" alt="">
+    </div>
+    <header>
+        <div class="header">
+            <div class="title">
+                <img src="img/header-icon.png" alt="judul" width="40" height="40" class="img-nav">
+                <h2 class="header-title-h2">Wen's Blog</h2>
+            </div>
+            <nav>
+                <div class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="project.html">Project</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="jumbotron">
+            <div class="jumbotron">
+                <h1 class="jumbotron-title" onmouseout="changeTextBack(this)" onmouseover="changeTextTitle(this)">Dapatkan Tips programming Disini !</h1>
+                <div class="header-flex">
+                    <div>
+                        <div class="mini-text-flex">
+                            <p class="mini-text">
+                                Belajar programming dasar disini
+                            </p>
+                            <button id="icon-up" onclick="changeText()">
+                                <i class="far fa-hand-point-up"></i>
+                            </button>
+                            <button id="icon-down" class="icon-down">
+                                <i class="far fa-hand-point-down"></i>
+                            </button>
+                        </div>
+                        <h2 class="jumbotron-text" data-aos="fade-right" data-aos-once="true" data-aos-duration="2000" data-aos-delay="500" data-aos-easing="ease-in">Baru di dunia programming ! <br> Belajar lewat pengembangan <span style="color: #f4a261">Game dan Web</span> sederhana </h2>
+                    </div>
+                    <div>
+                        <img src="img/img-header.png" alt="Icon" class="jumbotron-img" width="500" height="300" class="jumbotron-img" onmouseout="changeImageBack(this)" onmouseover="changeImage(this)" data-aos="flip-down" data-aos-offset="600">
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave1">
+                <path fill="#647973" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" style="user-select: auto;"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave2"><path fill="#ffffff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" style="user-select: auto;"></path></svg>
+        </section>
+        <section id="slider" class="section-slider">
+            <div class="image-slider">
+                <div class="slide active">
+                    <img src="img/game-development.jpg" alt="">
+                    <div class="slide-text">
+                        <h2>Game Development</h2>
+                        <p>Instead of Playing game all day long, why not create your own ?</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/web-development.jpg" alt="">
+                    <div class="slide-text">
+                        <h2>Web Development</h2>
+                        <p>Every Company need website. Take advantage of that opportunity!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/web-design.jpg" alt="">
+                    <div class="slide-text">
+                        <h2>Web Design </h2>
+                        <p>Color, Transition, Animation are cool</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/kids-programming.jpg" alt="">
+                    <div class="slide-text">
+                        <h2>Kids Programming</h2>
+                        <p>Better know earlier with a fun way of arranging blocks</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/apps.jpg" alt="">
+                    <div class="slide-text">
+                        <h2>Mobile Apps Development</h2>
+                        <p>Mobile apps are very popular and most needed in this world</p>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <div class="slider-btn active"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                </div>
+            </div>
+        </section>
+        <div class="main-content">
+            <aside>
+                <div>
+                    <h3 class="aside-title">It's Wendi</h3>
+                    <img src="img/people.jpg" alt="profile" class="profile-picture" width="150px" height="150px">
+                    <div class="toggle">
+                        <button class="btn" id="green" onclick="likeColor()">
+                            <i class="fa fa-thumbs-up fa-lg"></i>
+                        </button>
+                        <button class="btn" id="red" onclick="dislikeColor()">
+                            <i class="fa fa-thumbs-down fa-lg"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="search-tags-container">
+                    <div class="input-tag">
+                        <h3 class="aside-title">Search here</h3>
+                        <input type="text" id="myInput" placeholder="Search here">
+                        <span class="addBtn" onclick="newElement()">Search</span>
+                    </div>
+                    <ul id="myUL" class="search-tags-list">
+                        <li class="search-tags-item data-list">HTML</li>
+                        <li class="search-tags-item data-list">Code</li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="content">
+                <article id="video">
+                    <div class="item-video">
+                        <h3 class="article-title">Automate With Python</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PXMJ6FS7llk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="500px" height="350px" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fJEbVCrEMSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3 class="article-title">Learn basic SQL</h3>
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vNoKguSdy4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HXV3zeQKqGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" width="500px" height="350px" allowfullscreen></iframe>
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NdgLj3-tEgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+                </article>
+                <article id="maps">
+                    <div class="maps">
+                        <h3 class="article-title">Visit the location</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.253908745217!2d107.61542430907089!3d-6.882999675204971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6584da0750d%3A0x773058ca7734127f!2sKebun%20Binatang%20Bandung!5e0!3m2!1sid!2sid!4v1661506820989!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- <iframe src="project.html" frameborder="0"></iframe> -->
+                    </div>
+                </article>
+            </div>
+            <article id="my-project">
+                <h3 class="article-title">My Project</h3>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="img/project3.png" alt="">
+                        <h4 class="project-title">Ghost Buster</h4>
+                        <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil officiis dolore enim quaerat voluptates dolorum quas? Ipsam fugiat similique, at, distinctio blanditiis recusandae ullam magni sit obcaecati mollitia ratione modi.</p>
+                    </div>  
+                    <div class="project">
+                        <img src="img/project2.png" alt="">
+                        <h4 class="project-title">Florist Shop</h4>
+                        <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil officiis dolore enim quaerat voluptates dolorum quas? Ipsam fugiat similique, at, distinctio blanditiis recusandae ullam magni sit obcaecati mollitia ratione modi.</p>
+                    </div>  
+                    <div class="project">
+                        <img src="img/project1.png" alt="">
+                        <h4 class="project-title">Tourist App</h4>
+                        <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil officiis dolore enim quaerat voluptates dolorum quas? Ipsam fugiat similique, at, distinctio blanditiis recusandae ullam magni sit obcaecati mollitia ratione modi.</p>
+                    </div>  
+                </div>
+            </article>
+           
+        </div>
+        
+    </main>
+    <footer>
+        <div class="main-footer">
+            <h3 class="info-top">Wendi Kardian</h3>
+            <div class="social-media">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-envelope"></i>
+            </div>
+            <p class="info-center">Copyright &copy; 2022. Wendi. All Rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function changeText(){
+            var replaceText = document.getElementsByClassName("mini-text")[0].innerHTML = "Scroll untuk melihat"
+            document.getElementById("icon-up").style.display = "none";
+            document.getElementById("icon-down").style.display = "block";
+        }
+        var btnLike = document.querySelector('#green')
+        var btnDislike = document.querySelector("#red")
+
+        btnLike.onclick = likeColor
+        btnDislike.onclick = dislikeColor
+
+        function likeColor(){
+            if(btnDislike.classList.contains('red')){
+                btnDislike.classList.remove('red')
+            }
+            this.classList.toggle('green')
+        }
+
+        function dislikeColor(){
+            if(btnLike.classList.contains('green')){
+                btnLike.classList.remove('green')
+            }
+            this.classList.toggle('red')
+        }
+
+        function changeTextTitle(element){
+            element.innerHTML = "Pengembangan Website dan Game"
+        }
+
+        function changeTextBack(element){
+            element.innerHTML = "Dapatkan Tips programming Disini !"
+        }
+    </script>
+</body>
+</html>

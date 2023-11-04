@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f0e17752b2.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Contact Me</title>
+    </head>
+<body>
+    <header>
+        <header>
+            <div class="header">
+                <div class="title">
+                    <img src="img/header-icon.png" alt="judul" width="40" height="40" class="img-nav">
+                    <h2 class="header-title-h2">Wen's Blog</h2>
+                </div>
+                <nav>
+                    <div class="nav">
+                        <a href="index.html">Home</a>
+                        <a href="project.html">Project</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="about.html">About Us</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </header>
+    <main>
+        <div class="contact-container">
+            <div class="ilustration" data-aos="fade-left">
+                <img src="img/registrasion1.png"  width="800px"alt="" class="illustration-img">
+            </div>
+            <div class="contact">
+                <img src="img/avatar.png" alt="" class="profile-contact-img">
+                <h1>Contact Me</h1>
+                <p>Please feel free to contact me</p>
+                <h4>Your Information</h4>
+                <form action="https://formsubmit.co/wendikardian@gmail.com" autocomplete="off" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" class="next">
+                    <div class="form-container">
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" class="input-item" name="name" id="name" placeholder=" ">
+                                <label for="name" class="form-label">Name</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" class="input-item" name="city" id="city" placeholder=" ">
+                                <label for="city" class="form-label">City</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-envelope-open"></i>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" class="input-item" name="email" id="email" placeholder=" ">
+                                <label for="email" class="form-label">Email</label>
+                            </div>
+                        </div>
+                        <div class="input-container">
+                            <div class="icon">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <div class="form-input">
+                                <label for="message" class="form-label" style="margin-bottom:20px;top:-5px;">Message</label>
+                                <textarea class="textarea" type="text" name="message" id="message" cols="30" rows="10" placeholder=" "></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" class="submit"> 
+                </form>
+            </div>
+        </div>
+       <div class="modal-container">
+        <div class="modal">
+            <img src="img/rocket.png" alt="">
+            <h3>Message Sent</h3>
+            <p>Thank you for submitting !</p>
+        </div>
+       </div>
+    </main>
+    <footer class="footer-contact">
+        <div class="main-footer">
+            <h3 class="info-top">Wendi Kardian</h3>
+            <div class="social-media">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-envelope"></i>
+            </div>
+            <p class="info-center">Copyright &copy; 2022. Wendi. All Rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

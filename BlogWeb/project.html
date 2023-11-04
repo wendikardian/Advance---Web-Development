@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f0e17752b2.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Project Detail</title>
+    </head>
+<body>
+    <header>
+        <div class="header">
+            <div class="title">
+                <img src="img/header-icon.png" alt="judul" width="40" height="40" class="img-nav">
+                <h2 class="header-title-h2">Wen's Blog</h2>
+            </div>
+            <nav>
+                <div class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="project.html">Project</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="page-title">
+            <h1>My Project Details</h1>
+        </div>
+        <div class="all-projects">
+            <article id="website">
+                <div class="project-detail">
+                    <div class="project-img">
+                        <img src="img/project1.png" alt="Website">
+                    </div>
+                    <div class="project-description">
+                        <h3>Time Travel</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nihil, modi vel dolore est delectus animi culpa quidem hic aliquid? A saepe, iste officia inventore tempora nisi tenetur nemo? Ratione?
+                        </p>
+                        <p class="project-link">
+                            Here is the link to project preview
+                            <a href="">Time Travels website</a>
+                        </p>
+                    </div>
+                    <div class="rocket-container">
+                        <img src="img/rocket.png" alt="Rocket">
+                    </div>
+                </div>
+            </article>
+            <article id="website">
+                <div class="project-detail">
+                    <div class="project-img">
+                        <img src="img/project2.png" alt="Website">
+                    </div>
+                    <div class="project-description">
+                        <h3>Paper Rock Skissors</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nihil, modi vel dolore est delectus animi culpa quidem hic aliquid? A saepe, iste officia inventore tempora nisi tenetur nemo? Ratione?
+                        </p>
+                        <p class="project-link">
+                            Here is the link to project preview
+                            <a href="">Paper Rock Skissors App</a>
+                        </p>
+                    </div>
+                    <div class="rocket-container">
+                        <img src="img/rocket.png" alt="Rocket">
+                    </div>
+                </div>
+            </article>
+            <article id="website">
+                <div class="project-detail">
+                    <div class="project-img">
+                        <img src="img/project3.png" alt="Website">
+                    </div>
+                    <div class="project-description">
+                        <h3>Ghost Buster</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nihil, modi vel dolore est delectus animi culpa quidem hic aliquid? A saepe, iste officia inventore tempora nisi tenetur nemo? Ratione?
+                        </p>
+                        <p class="project-link">
+                            Here is the link to project preview
+                            <a href="">Ghost Buster Game</a>
+                        </p>
+                    </div>
+                    <div class="rocket-container">
+                        <img src="img/rocket.png" alt="Rocket">
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="main-footer">
+            <h3 class="info-top">Wendi Kardian</h3>
+            <div class="social-media">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-envelope"></i>
+            </div>
+            <p class="info-center">Copyright &copy; 2022. Wendi. All Rights reserved</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        var codingProjectsDetails = document.querySelectorAll('.project-detail');
+        console.log(codingProjectsDetails)
+        codingProjectsDetails.forEach((project, index) => {
+            project.dataset.aos = 'fade-down';
+            project.dataset.aosDuration = 1500;
+            project.dataset.aosDelay = index*300;
+        })
+        AOS.init({
+            once: true
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

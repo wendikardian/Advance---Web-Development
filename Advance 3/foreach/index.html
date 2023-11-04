@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 11% 8%, 75% 25%, 86% 88%, 57% 100%, 25% 100%, 100% 100%, 100% 0%);
+        }
+    </style>
+</head>
+<body>
+    <img width="300" src="https://cdn1-production-images-kly.akamaized.net/vR_kCaaM4tdAeC-OvnXMkHjrWq8=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3306480/original/072407000_1606283360-HL.jpg" alt="">
+    <br>
+    <script>
+        var genres = ["Jazz", "Pop", "Rock", "Dangdut"]
+        // for(i = 0; i< genres.length; i++){
+        //     document.write("I choose " + genres[i] + "<br>")
+        // }
+
+        genres.forEach(function(genre){
+                document.write("I choose " + genre + "<br>")
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: red;
+            position: sticky;
+            width: 100%;
+            top: 0px;
+
+        }
+        .plus{
+            background-color: yellow;
+            z-index: 200;
+            position: fixed;
+            padding: 20px;
+            border-radius: 50%;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .relative{
+            background-color:yellow;
+            position: relative;
+            bottom: 50px;
+            /* margin-top: 100px; */
+        }
+
+        .absolute{
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            margin-left: 200px;
+            position: absolute;
+            z-index: -10;
+        }
+
+        h3{
+            background-color: yellow;
+            width: 100px;
+            position: absolute;
+            bottom: 60px;
+        }
+
+        h4{
+            background-color: aquamarine;
+            width: 100px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        p{
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="plus">+</p>
+    <h2 class="relative">Relative</h2>
+
+    <div class="absolute">
+        <h3>Absolute</h3>
+        <h4>Another Absolute</h4>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam hic quas ducimus quaerat. Sit expedita velit repellat in architecto possimus nulla quaerat, cum dolores aut ea omnis praesentium magni accusantium.</p>
+</body>
+</html>

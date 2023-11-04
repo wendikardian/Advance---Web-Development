@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Form</title>
+</head>
+<body>
+    <img>
+    <form action="result.html" target="blank" method="get">
+        <h1>Form Pendaftaran</h1>
+        <div class="input-con">
+            <label for="name">Full name</label>
+            <input type="text" placeholder="Insert Full name please"id="name" name="name" required autofocus>
+        </div>
+        <div class="input-con">
+            <label for="password">Passwords</label>
+            <input type="password"  id="password" required>
+        </div>
+        <div class="input-con">
+            <label for="telp">No Telp</label>
+            <input type="number" value="087" id="telp" required>
+        </div>
+        <div class="input-con">
+            <label for="email">Email Adress</label>
+            <input type="email" id="email">
+        </div>
+        <div class="input-con">
+            <label for="class">Class </label>
+            <input type="text" id="class" name="class">
+        </div>
+        <div class="input-con">
+            <label for="phone">Kelas</label>
+            <input type="number" min="1" max="12" >
+        </div>
+        <div class="input-con">
+            <label for="tgl">Tanggal Lahir</label>
+            <input type="date" id="tgl">
+        </div>
+        <div class="input-con">
+            <h4>Your fav programming language</h4>
+            <div class="checkbox-box">
+                <input type="checkbox" value="HTML">
+                <label for="HTML">HTML</label>
+            </div>
+            <div class="checkbox-box">
+                <input type="checkbox" value="CSS">
+                <label for="HTML">CSS</label>
+            </div>
+            <div class="checkbox-box">
+                <input type="checkbox" value="Javascript">
+                <label for="HTML">Javascript</label>
+            </div>
+        </div>
+        <div class="input-con">
+            <h4>Your level</h4>
+            <div class="radio-box">
+                <input type="radio" name="level" id="beginner" value="beginner"> 
+                <label for="beginner">Beginner</label>
+            </div>
+            <div class="radio-box">
+                <input type="radio" name="level" id="beginner" value="intermediate"> 
+                <label for="intermediate">intermediate</label>
+            </div>
+            <div class="radio-box">
+                <input type="radio" name="level" id="advance" value="advance"> 
+                <label for="advance">advance</label>
+            </div>
+            <div class="radio-box"> 
+                <input type="radio" name="level" id="app" value="app">
+                <label for="app">App</label>
+            </div>
+            
+        </div>
+        <div class="input-con">
+            <label for="">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="unknown">Unknown</option>
+            </select>
+        </div>
+        <div class="input-con">
+            <label for="address">Adress</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div class="input-con">
+            <label for="img">Profile Picture</label>
+            <input type="file" name="img" id="img">
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>

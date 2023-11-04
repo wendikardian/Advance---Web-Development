@@ -53,12 +53,10 @@
     margin: 10px;
 }
 
-
 .product-img{
     height: 200pt;
     width : 150px;
-    border-radius: 20px;
-    
+    border-radius: 20px;    
 }
 
 table, tr, th, td{
@@ -103,4 +101,19 @@ section.product-section{
 
 .font-effect-anaglyph{
     font-family: 'Dancing Script', cursive;
+}
+
+@media (max-width: 450px) {
+    *{
+        font-size: 3vw;
+    }
+    .header{
+        color: red;
+    }
+    .img-bestseller{
+        margin-top: 20px;
+        border-radius: 30px;
+        min-width: 400px;
+    }
+
 }

@@ -1,0 +1,40 @@
+*{
+    color: white;
+}
+
+form{
+    background-color: #25316D;
+    width: 50%;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.input-con{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+select, option, input[type="submit"]{
+    color: black;
+}
+
+input, textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color:#FEF5AC;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+input[type="file"]{
+    background-color:#FEF5AC;
+    width: 200px;
+    border: none;
+}
